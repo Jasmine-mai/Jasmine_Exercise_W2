@@ -40,3 +40,11 @@ do {
         isSuccess = true;
     }
 } while (!isSuccess && i <= 5);
+
+//Exercise 3
+// Arrow function
+var myFunction = (a,b) => a*b
+console.log (myFunction (3,4));
+
+var person = (name, age, gender) => ({'Name': name, 'Age': age, 'Gender': gender});
+console.log(person('Jasmine', 25, 'female'));
