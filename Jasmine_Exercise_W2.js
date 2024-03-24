@@ -62,3 +62,16 @@ contact1.phoneNumber = '8467757657';
 contact2.whatsappNumber = '9715657577';
 console.log (contact1);
 console.log (contact2);
+
+// Classess
+class Vehicle {
+    constructor(name, price){
+        this.name = name;
+        this.price = price;
+    }
+}
+var car = new Vehicle ('car', 10000);
+var bike = new Vehicle ('bike', 100);
+
+console.log (car);
+console.log (bike);
