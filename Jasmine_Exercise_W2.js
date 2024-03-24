@@ -48,3 +48,17 @@ console.log (myFunction (3,4));
 
 var person = (name, age, gender) => ({'Name': name, 'Age': age, 'Gender': gender});
 console.log(person('Jasmine', 25, 'female'));
+
+// Exercise 4
+//Object constructor
+function Contact(firstName, lastName, email) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.email = email;
+}
+var contact1 = new Contact ('Jasmine', 'Mai', 'jasminemai@gmail.com');
+var contact2 = new Contact ('Julian', 'Versace', 'julianversace@gmail.com');
+contact1.phoneNumber = '8467757657';
+contact2.whatsappNumber = '9715657577';
+console.log (contact1);
+console.log (contact2);
