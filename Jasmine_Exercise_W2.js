@@ -37,7 +37,7 @@ do {
     i++;
     console.log('số lần login ' + i);
     if (false) {
-        isSuccess = true;
+        isSuccess = false;
     }
 } while (!isSuccess && i <= 5);
 
